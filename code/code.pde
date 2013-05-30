@@ -27,4 +27,12 @@ void draw(){
   
   //draw the circle
   ellipse(random(width), random(height), diameter, diameter);
+  
+  if (key == ENTER) {
+    ellipse(mouseX, mouseY, mouseX, mouseY);
+    frameRate(250);
+}
+   else {
+    frameRate(10);
+   }
 }
