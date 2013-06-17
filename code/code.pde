@@ -35,9 +35,7 @@ void draw(){
     color1 = color(random(0, 255), random(0, 255), random(0, 255));
     color1 = color(random(0, 255), random(0, 255), random(0, 255));
   } else { counter++; }
-<<<<<<< HEAD
-    
-=======
+
   
   //Draw ellipse at size and location of mouse xy and increase framerate. Press 'Enter' to start and 'Spacebar' to stop.
   if (key == ENTER) {
@@ -47,7 +45,6 @@ void draw(){
    else {
     frameRate(10);
    }
->>>>>>> 018935b0dd0d753809deac4ac605635377dd5886
 }
 
   //pause sketch by holding down anykey
