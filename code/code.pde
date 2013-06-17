@@ -36,6 +36,7 @@ void draw(){
     color1 = color(random(0, 255), random(0, 255), random(0, 255));
   } else { counter++; }
   
+  //Draw ellipse at size and location of mouse xy and increase framerate. Press 'Enter' to start and 'Spacebar' to stop.
   if (key == ENTER) {
     ellipse(mouseX, mouseY, mouseX, mouseY);
     frameRate(250);
