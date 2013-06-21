@@ -10,5 +10,7 @@ If you're new to working with forks, check out [this page](https://help.github.c
 
 And if you're completely new to git, then go through [this tutorial](http://try.github.io/) in its entirety.
 
+And if you're new to processing, check out [this site](http://www.introprocessing.blogspot.com/).
+
 ### What you need
 Make sure you have the [latest build of processing](http://processing.org/download/).
